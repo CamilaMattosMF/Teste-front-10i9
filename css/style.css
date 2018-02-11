@@ -22,25 +22,25 @@ header{
 
 
 /*--- BODY --- */
-.lista-noticias{
+.list-zone-one{
 	background-color: #ffffff;
 	border-radius: 3px;
 	margin: 15px 0px;
 	padding-bottom: 15px;
 	padding-top: 15px;
 }
-.noticias ul{
+.zone-one ul{
 	color:#b3b3b3;
 	font-weight: 800;
 
 }
-.noticias ul li{
-	background-color: #b3b3b3;
+.zone-one ul li{
+	color: #6f6f6f;
 	margin:15px 0px 15px 0px;
-	
+	font-size: 1em;
 }
 
-.botao-noticias{
+.buttom-zone-one{
 	background-color: #fff;
 	text-align: center;
 	padding: 15px 0px 15px 0px;
@@ -49,11 +49,11 @@ header{
 	
 }
 
-.bloco-video{
+.block-video{
 	margin: 15px 0px;
 }
 
-.bloco-personagem{
+.block-character{
 	background-color:  #fff;
 	margin-right: 15px;
 	margin-left: 15px;
@@ -62,23 +62,23 @@ header{
 
 
 }
-.bloco-personagem img{
+.block-character img{
 	width: ;
 
 }
-.bloco-personagem p{
+.block-character p{
 	margin-top: 15px;
 
 }
 
-.bloco-textos{
+.block-text{
 	background-color: #fff;
 	margin:15px;
 	padding: 15px;
 	
 	
 }
-.bloco-textos div{
+.block-text div{
 	padding-left: 0px;
 	padding-right: 0px;
 }
@@ -101,7 +101,7 @@ footer{
 	margin-right: 30px;
 }
 
-.bloco-imagem img{
+.block-image img{
 	max-width: 110%;
     width: 104%; }
 }
@@ -109,50 +109,50 @@ footer{
 
 /*-----------------------------||||||||||||||||||||||| ----------- */
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 991px) { 
+@media (min-width: 991px){ 
 
-.noticias{
+.zone-one{
 	clear: both;
 	width: 56%;
 }
-.bloco-video{
+.block-video{
 	width: 44%;
 	margin-bottom: 0px;
 }
-.bloco-video iframe{
-	width: 500px;
+.block-video iframe{
+	width: 100%;
 	height: 340px;
 
 }
-.bloco-personagem img{
+.block-character img{
 	width: 25%;
 	float: left;
 }
-.bloco-personagem p{
+.block-character p{
 	font-size: 1.7em;
 	margin-left:  29%;
 }
-.bloco-textos{
+.block-text{
 	width: 46%;
 	float: left;
 	margin-right: 0px;
 }
-.bloco-textos div{
+.block-text div{
 	float: left;
 	width: 50%;
 	padding:5px;
 	text-align: justify;
 }
-.bloco-imagem{
+.block-image{
 	width: 52%;
 	margin-top: 15px;
 	right: -23px;
 	background-color: #fff;
 
 }
-.bloco-imagem img{
-	height: 310px;
-	width: 570px;
+.block-image img{
+	
+	width: 89%;
 }
 
  }
@@ -160,15 +160,24 @@ footer{
 /*------------- |||||||||||||||||||||||| ------------*/
  /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1024px) {
-.bloco-imagem img{
-	height: 390px;
-	width: 100%;
-}
-.bloco-video iframe{
-	width: 413px;
-	height: 340px;
 
+
+
+.block-video iframe{
+	width: 100%;
+	
+	margin-right: auto;
+	margin-left: auto;
 }
+
+.block-image img{
+	margin-right: auto;
+	margin-left: auto;
+	width: 89%;
+}
+
+
+
 
 
 }
